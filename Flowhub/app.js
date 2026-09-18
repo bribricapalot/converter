@@ -8,7 +8,7 @@ const API_BASE_URL = (
     window.location.protocol === 'file:'
 ) 
 ? 'http://127.0.0.1:8000' 
-: 'https://flowhub-backend.onrender.com'; // <-- ERSETZE DAS durch deine echte Render-URL!
+: 'https://flowhub-backend-zsco.onrender.com';
 
 // ==========================================
 // 2. SOCIAL MEDIA DOWNLOADER LOGIC
