@@ -1,0 +1,97 @@
+/* Base styles and custom brand theme rules */
+
+{
+font-family: 'Inter', sans-serif;
+}
+
+.glow-blue {
+box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.3);
+}
+
+.active-tab {
+background-color: #2563eb !important;
+color: #ffffff !important;
+box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+
+/* Platform Specific Styling */
+.platform-card {
+transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.platform-card:hover {
+transform: translateY(-4px);
+}
+
+/* YouTube */
+.card-youtube {
+border: 2px solid #FF0000;
+box-shadow: 0 4px 20px -5px rgba(255, 0, 0, 0.25);
+}
+.btn-youtube {
+background-color: #FF0000;
+border: 2px solid #FF0000;
+}
+.btn-youtube:hover {
+background-color: #d00000;
+}
+
+/* Facebook */
+.card-facebook {
+border: 2px solid #1877F2;
+box-shadow: 0 4px 20px -5px rgba(24, 119, 242, 0.25);
+}
+.btn-facebook {
+background-color: #1877F2;
+border: 2px solid #1877F2;
+}
+.btn-facebook:hover {
+background-color: #1464cc;
+}
+
+/* SoundCloud */
+.card-soundcloud {
+border: 2px solid #FF5500;
+box-shadow: 0 4px 20px -5px rgba(255, 85, 0, 0.25);
+}
+.btn-soundcloud {
+background-color: #FF5500;
+border: 2px solid #FF5500;
+}
+.btn-soundcloud:hover {
+background-color: #e04b00;
+}
+
+/* Spotify */
+.card-spotify {
+border: 2px solid #1DB954;
+box-shadow: 0 4px 20px -5px rgba(29, 185, 84, 0.25);
+}
+.btn-spotify {
+background-color: #1DB954;
+border: 2px solid #1DB954;
+}
+.btn-spotify:hover {
+background-color: #1aa34a;
+}
+
+/* TikTok */
+.card-tiktok {
+border: 2px solid #25F4EE;
+box-shadow: 0 4px 20px -5px rgba(37, 244, 238, 0.25);
+}
+.btn-tiktok {
+background-color: #000000;
+border: 2px solid #FE2C55;
+color: #25F4EE;
+}
+.btn-tiktok:hover {
+background-color: #111111;
+border-color: #25F4EE;
+color: #FE2C55;
+}
+
+/* Drag & Drop Highlight */
+.dropzone-active {
+border-color: #3b82f6 !important;
+background-color: rgba(59, 130, 246, 0.1) !important;
+}
